@@ -1,0 +1,224 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "id": "6VEACrzx4byy"
+      },
+      "outputs": [],
+      "source": [
+        "# check if a number is even or odd"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "number=15\n",
+        "if number % 2==0:\n",
+        "    print(\"even\")\n",
+        "else:\n",
+        "    print(\"odd\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zxNZx0lE4l1L",
+        "outputId": "f29711eb-dc22-4b65-e576-ed5352b1182d"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "odd\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# check if a number is multiple of 7"
+      ],
+      "metadata": {
+        "id": "PcB3y57i4pya"
+      },
+      "execution_count": 3,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "number=20\n",
+        "if number % 5==0 and number % 7 ==0:\n",
+        "    print(\"multiple of 5 both 7\")\n",
+        "else:\n",
+        "    print(\"muitiple of both\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "eqWp3ZAP4smw",
+        "outputId": "8db2fac6-10ae-4a99-8e91-2dc73ba187ef"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "muitiple of both\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# check if a day is weekday or weekent"
+      ],
+      "metadata": {
+        "id": "jFdHSwzP4vl3"
+      },
+      "execution_count": 5,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "day=input(\"Enter the day\")\n",
+        "if day==\"sunday\" and day==\"saturday\":\n",
+        "    print(\"weekday\")\n",
+        "else:\n",
+        "    print(\"weekend\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Zp__ud-54y9N",
+        "outputId": "38c529ac-3b23-4a7e-b10a-2a00ecca95ca"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter the daymonday\n",
+            "weekend\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# find profit or loss MRP-200 selling price-150"
+      ],
+      "metadata": {
+        "id": "lJGNKR_D42or"
+      },
+      "execution_count": 7,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "MRP=200\n",
+        "selling_price=150\n",
+        "if MRP>selling_price:\n",
+        "    print(\"loss\")\n",
+        "else:\n",
+        "    print(\"profit\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "xQama32s5M4N",
+        "outputId": "5949c6cb-fecb-489f-f2a5-84ff779c7b48"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "loss\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# simple login check username=\"admin\" password=\"1234\""
+      ],
+      "metadata": {
+        "id": "ejEMBCuJ6qx9"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "username=\"admin\"\n",
+        "password=1234\n",
+        "usernmae1=input(\"Enter the username\")\n",
+        "password1=int(input(\"Enter the password\"))\n",
+        "if username==usernmae1 and password==password1:\n",
+        "    print(\"login success\")\n",
+        "else:\n",
+        "    print(\"login failed\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "reiuePRg5VQA",
+        "outputId": "82f60773-8720-41f3-c6d0-f5f0bca4d8ea"
+      },
+      "execution_count": 16,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter the usernameadmin\n",
+            "Enter the password1234\n",
+            "login success\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "-cdlxOeV5teY"
+      },
+      "execution_count": 16,
+      "outputs": []
+    }
+  ]
+}
